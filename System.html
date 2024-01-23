@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style></style>
+        <title>System</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </head>
+    <style>
+        .stay {/*
+            margin: 5px;*/
+            margin-right: 8px;
+        }
+        .btn-group {
+            margin-right: 8px;
+        }
+        .footer {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            background-color: lightgray;
+            margin: 10px;
+        }
+        .box {
+          margin: 10px;
+          border: 2px solid orange;
+          border-radius: 6mm;
+          padding: 14px;
+          box-shadow: gray;
+        }
+        .images {
+          margin-left: 50%;
+          display: grid;
+          grid-template-columns: 1fr;
+          /*margin-bottom: 1cm;*/
+        }
+        .box1 {
+          display:grid;
+          grid-template-columns: 1fr 1fr;
+        }
+    </style>
+    <body>
+      <div class="system">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><strong>PAAJI</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Our Hotels</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Booking</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Locations
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Domestic</a></li>
+                    <li><a class="dropdown-item" href="#">International</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Invitations
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Wedding</a></li>
+                    <li><a class="dropdown-item" href="#">Parties</a></li>
+                    <li><a class="dropdown-item" href="#">Meetings</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Other services</a></li>
+                  </ul>
+                </li>
+              </ul><!--<form class="d-flex" role="search"> <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> <button class="btn btn-outline-success" type="submit">Search</button> </form>-->
+            </div>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Lang
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">French</a></li>
+              <li><a class="dropdown-item" href="#">German</a></li>
+              <li><a class="dropdown-item" href="#">Spain</a></li>
+              <li><a class="dropdown-item" href="#">Dutch</a></li>
+              <li><a class="dropdown-item" href="#">Japanese</a></li>
+              <li><a class="dropdown-item" href="#">Chinese</a></li>
+              <li><a class="dropdown-item" href="#">Hindi</a></li>
+              <li><a class="dropdown-item" href="#">Russia</a></li>
+            </ul>
+          </div>
+          <div class="stay">
+            <button type="button" class="btn btn-warning">Book a stay</button>
+          </div>
+        </nav>
+      </div>
+      <div class="box">
+        <span><h3>PAAJI palace</h3></span>
+        <p><h6>3-star hotel in india</h6></p>
+        <div class="box1">
+          <div class="box1-1">
+            <p>
+              <a class="icon-link" href="#">
+                <svg class="bi" aria-hidden="true"><use xlink:href="#box-seam"></use></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                </svg>
+                opp pvr, railway station road, secundrabad
+              </a>
+            </p>
+            <p>The PAAJI Palace opened in hyderbad, then Bombay, in 1903, giving birth to the country’s first harbour landmark. The recently trademarked flagship hotel overlooks the majestic Gateway of India. T....
+              <!--<span>...</span>
+              span class="show-more-ell cm-view-txt"><button class="btn-only-focus">Show More</button></span>-->
+              <button type="button" class="btn btn-link">Show more</button>
+            </p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+              <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+               </svg><span>040-42006888/For booking : 040-60004288</span>
+            </p>
+            <p><h5>Hotel-policies</h5></p>
+            <span>
+              <ul>Check-in time: 1400 hrs</ul>
+              <ul>Check-out time: 1200 hrs</ul>
+              <ul>Early check-in and late check-out on request</ul>
+              <ul>Pets are allowed</ul>
+            </span>
+          </div>
+          <div class="images">
+            <img src="https://www.tajhotels.com/content/dam/luxury/hotels/Taj_Mahal_Mumbai/images/gallery/Aquarius%20Suite%20-%20Bedroom.jpg/jcr:content/renditions/cq5dam.web.323.323.jpeg" width="250cm" height="200cm">
+            <!--<img src="https://www.tajhotels.com/content/dam/luxury/hotels/Taj_Mahal_Mumbai/images/gallery/Ballroom.jpg/jcr:content/renditions/cq5dam.web.323.323.jpeg" width="250cm" height="200cm">-->
+          </div>
+        </div>
+      <div class="footer">
+        <div class="General">
+          <ol>
+            <ul><button type="button" class="btn" data-bs-toggle="button"><strong></strong></button></ul>
+            <ul><button type="button" class="btn">Airline & Frequent Flyer Partners</button></ul>
+            <ul><button type="button" class="btn">PAAJI Magazine</button></ul>
+            <ul><button type="button" class="btn">Wellness Circle</button></ul>
+            <ul><button type="button" class="btn">Site Map</button></ul>
+            <ul><button type="button" class="btn">Terms Of Use</button></ul>
+            <ul><button type="button" class="btn">Contact Us</button></ul>
+          </ol>
+        </div>
+        <div class="General">
+          <ol>
+            <ul><button type="button" class="btn" data-bs-toggle="button"><strong></strong></button></ul>
+            <ul><button type="button" class="btn">Accessibility</button></ul>
+            <ul><button type="button" class="btn">Languages</button></ul>
+            <ul><button type="button" class="btn">Privacy Policy</button></ul>
+            <ul><button type="button" class="btn">Press Room</button></ul>
+            <ul><button type="button" class="btn">Careers</button></ul>
+            <ul><button type="button" class="btn">Blogs</button></ul>
+          </ol>
+        </div>
+        <div class="General">
+          <ol>
+            <ul><button type="button" class="btn" data-bs-toggle="button"><strong></strong></button></ul>
+            <ul><button type="button" class="btn">SAATHI</button></ul>
+            <ul><button type="button" class="btn">NIDHI</button></ul>
+            <ul><button type="button" class="btn">UTSAV</button></ul>
+            <ul><button type="button" class="btn">INCREDIBLE INDIA FILM</button></ul>
+          </ol>
+        </div>
+        <div class="General">
+          <ol>
+            <ul><button type="button" class="btn" data-bs-toggle="button"><strong></strong></button></ul>
+            <ul><button type="button" class="btn">join us</button></ul>
+            <ul><button type="button" class="btn btn-warning">Subscribe</button></ul>
+            <span>Connect with us </span>
+            <ul>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 3a1 1 0 0 1 .877 .519l.051 .11l2 5a1 1 0 0 1 -.313 1.16l-.1 .068l-1.674 1.004l.063 .103a10 10 0 0 0 3.132 3.132l.102 .062l1.005 -1.672a1 1 0 0 1 1.113 -.453l.115 .039l5 2a1 1 0 0 1 .622 .807l.007 .121v4c0 1.657 -1.343 3 -3.06 2.998c-8.579 -.521 -15.418 -7.36 -15.94 -15.998a3 3 0 0 1 2.824 -2.995l.176 -.005h4z" stroke-width="0" fill="currentColor" /></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4l11.733 16h4.267l-11.733 -16z" /><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" /></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
+            </ul>
+            <ul><button type="button" class="btn"></button></ul>
+            <ul><button type="button" class="btn"></button></ul>
+            <ul><button type="button" class="btn"></button></ul>
+          </ol>
+        </div>
+      </div>
+    </body>
+</html>
+<!--first navigation bar
+2.box like border (inside regarding hotel summary, images, facilities and etc)-->
